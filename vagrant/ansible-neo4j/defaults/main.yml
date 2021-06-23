@@ -1,0 +1,31 @@
+---
+
+# Select neo4j version
+# neo4j_package: neo4j # community version
+#neo4j_package: neo4j-advanced
+neo4j_package: neo4j-enterprise
+
+# Package version
+neo4j_package_version: stable
+#neo4j_package_version: oldstable
+#neo4j_package_version: testing
+
+# Service name
+neo4j_service_name: neo4j
+
+# Manage service
+neo4j_manage_service: true
+
+# limits.conf
+neo4j_update_limits: true
+neo4j_nofile_value: 40000
+
+# neo4j neostore mapped memory
+neo4j_mm_nodestore: 25M
+neo4j_mm_relationshipstore: 50M
+neo4j_mm_propertystore: 90M
+neo4j_mm_propertystore_strings: 130M
+neo4j_mm_propertystore_arrays: 130M
+neo4j_mm_index: 5M
+neo4j_nm_index_keys: 5M
+neo4j_cache_type: none
