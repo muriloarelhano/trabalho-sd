@@ -1,4 +1,0 @@
----
-
-- include: install_neo4j.yml
-  tags: [neo4j]
