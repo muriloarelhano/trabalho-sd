@@ -1,19 +1,19 @@
-# Analise de dados do titanic com Apache Hadoop e Pig
+# Analise de dados do Titanic com Apache Hadoop e Pig
 
 ## Introdução
 
-Este trabalho consistem em fazer analise de dados referentes a tragédia do titanic, para fornecer um panorama geral sobre o ocorrido.
+Este trabalho consiste em fazer análise de dados referentes à tragédia do Titanic, para fornecer um panorama geral sobre o ocorrido.
 
-Vamo analisar a lista de passageiros presentes e separá-los em grupos por características para gerar informações sobre os grupos presentes no acidente.
+Vamos analisar a lista de passageiros presentes e separá-los em grupos por características para gerar informações sobre os grupos presentes no acidente.
 
-Utilizaremos apenas do apache pig para analisar o arquivo armazenado em um cluster hadoop, com o pig rodando em modo MapReduce.
+Utilizaremos apenas do Apache Pig para analisar o arquivo armazenado em um cluster Hadoop, com o Pig rodando em modo MapReduce.
 
 ## Objetivo
 
 A partir da separação dos grupos, gerar dados sobre quantidade de pessoas pertencentes aos grupos.
 
-* Separar os passageiros por características em comum
-* Fornecer uma visão das informações dos grupos filtrados
+* Separar os passageiros por características em comum.
+* Fornecer uma visão das informações dos grupos filtrados.
 
 ## Questões
 
